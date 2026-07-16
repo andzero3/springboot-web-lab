@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>学生信息</title>
+    <style>
+        body { font-family: system-ui, sans-serif; background: #f0f2f5; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .card { background: #fff; border-radius: 8px; padding: 40px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); text-align: center; }
+        .card h2 { margin: 0 0 20px; color: #333; }
+        .info { font-size: 18px; margin: 12px 0; }
+        .info span { color: #1890ff; font-weight: 500; }
+    </style>
+</head>
+<body>
+<div class="card">
+    <h2>学生信息展示</h2>
+    <div class="info">学号: <span th:text="${studentNo}"></span></div>
+    <div class="info">姓名: <span th:text="${studentName}"></span></div>
+</div>
+</body>
+</html>
