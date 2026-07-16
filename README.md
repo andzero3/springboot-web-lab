@@ -31,7 +31,7 @@
 
 1. 克隆仓库
 ```bash
-git clone https://github.com/你的用户名/springboot-web-lab.git
+git clone https://github.com/andzero3/springboot-web-lab.git
 ```
 
 2. 创建数据库
